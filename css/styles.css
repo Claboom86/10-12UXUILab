@@ -72,6 +72,9 @@ img {
     .left {
         display: inline-block;
         flex: 30%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
     }
     img {
         left: 15%;
